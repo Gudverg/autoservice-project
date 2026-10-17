@@ -15,24 +15,22 @@ namespace yakupov_autoservice
     
     public partial class yakup_autoserviceEntities : DbContext
     {
+        public yakup_autoserviceEntities()
+            : base("name=yakup_autoserviceEntities")
+        {
+        }
         private static yakup_autoserviceEntities _context;
-
         public static yakup_autoserviceEntities GetContext()
         {
             if (_context == null)
                 _context = new yakup_autoserviceEntities();
             return _context;
         }
-
-        public yakup_autoserviceEntities()
-           : base("name=yakup_autoserviceEntities")
-        {
-        }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
         }
-       
+    
         public virtual DbSet<Client> Client { get; set; }
         public virtual DbSet<ClientService> ClientService { get; set; }
         public virtual DbSet<DocumentByService> DocumentByService { get; set; }

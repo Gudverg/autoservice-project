@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="7a1fc686bcf74be881a72bd568baf512" Name="Diagram1">
+      <Diagram DiagramId="7a1fc686bcf74be881a72bd568baf512" Name="Diagram1" ZoomLevel="62">
         <EntityTypeShape EntityType="yakup_autoserviceModel.Client" Width="1.5" PointX="10" PointY="2.375" IsExpanded="true" />
         <EntityTypeShape EntityType="yakup_autoserviceModel.ClientService" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
         <EntityTypeShape EntityType="yakup_autoserviceModel.DocumentByService" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
